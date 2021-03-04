@@ -1,0 +1,24 @@
+{
+  "name": "plugin-dialpad",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "postinstall": "flex-plugin pre-script-check"
+  },
+  "dependencies": {
+    "flex-plugin-scripts": "^4.4.0-beta.0",
+    "react": "16.5.2",
+    "react-dom": "16.5.2",
+    "@emotion/core": "^10.0.28",
+    "@emotion/styled": "^10.0.27",
+    "craco-config-flex-plugin": "^3.10.1",
+    "env-cmd": "^10.1.0",
+    "flex-plugin": "^3.5.0",
+    "lodash": "^4.17.20",
+    "react-scripts": "^3.4.1",
+    "react-select": "^3.1.0"
+  },
+  "devDependencies": {
+    "@twilio/flex-ui": "^1"
+  }
+}
